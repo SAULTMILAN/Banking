@@ -1,0 +1,14 @@
+{
+  "accounts": [
+    {
+      "type": "Chequing",
+      "account_number": "CHQ123456789",
+      "balance": 2500.00
+    },
+    {
+      "type": "Savings",
+      "account_number": "SAV987654321",
+      "balance": 5000.00
+    }
+  ]
+}

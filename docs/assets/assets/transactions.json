@@ -1,0 +1,48 @@
+{
+  "transactions": {
+    "Chequing": [
+      {
+        "date": "2024-04-14",
+        "description": "Utility Bill Payment",
+        "amount": -120.00
+      },
+      {
+        "date": "2024-04-16",
+        "description": "ATM Withdrawal",
+        "amount": -75.00
+      },
+      {
+        "date": "2024-04-17",
+        "description": "Deposit",
+        "amount": 100.00
+      },
+      {
+        "date": "2024-04-18",
+        "description": "Withdrawal",
+        "amount": -50.00
+      }
+    ],
+    "Savings": [
+      {
+        "date": "2024-04-12",
+        "description": "Withdrawal",
+        "amount": -300.00
+      },
+      {
+        "date": "2024-04-15",
+        "description": "Interest",
+        "amount": 10.00
+      },
+      {
+        "date": "2024-04-16",
+        "description": "Deposit",
+        "amount": 200.00
+      },
+      {
+        "date": "2024-04-18",
+        "description": "Transfer to Chequing",
+        "amount": -500.00
+      }
+    ]
+  }
+}
