@@ -1,27 +1,40 @@
-# Flutter Simple Banking
+# 🏦 Flutter Simple Banking App
 
-A minimal Flutter app that meets the assignment requirements:
+A **beginner-friendly mobile banking app** built using **Flutter**.  
+This project demonstrates local JSON data handling, screen navigation, and clean UI — perfect for students learning Flutter basics.
 
-- **Welcome screen** with bank logo (icon), welcome message, and today's date.
-- **Navigate** from Welcome → Account List → Transactions.
-- **Accounts list** uses local JSON assets to display accounts.
-- Exactly **one "View Transactions"** button on the Accounts screen which becomes enabled when you select an account.
-- **Transactions** screen displays only the transactions for the selected account using the same JSON data.
-- **Back navigation** allowed only from Transactions → Accounts and from Accounts → Welcome (standard back button).
+---
 
-## Run locally
+## 🎯 Project Overview
 
-```bash
-flutter pub get
-flutter run
-```
+This app was developed as a class assignment for *Mobile Application Development*.  
+It simulates a mini banking system using static JSON data for **Accounts** and **Transactions**.
 
-## JSON assets (already included)
+### 👇 Main Features
+- **Welcome Screen**
+  - Shows the bank logo, greeting, and today’s date  
+  - Button to navigate to Accounts list  
+- **Accounts Screen**
+  - Displays all accounts (Chequing / Savings) with balances  
+  - Single “View Transactions” button becomes active when an account is selected  
+- **Transactions Screen**
+  - Lists recent transactions for the selected account  
+  - Allows back navigation only to Accounts → Welcome  
+- **JSON-based data**
+  - `accounts.json` → account details  
+  - `transactions.json` → transaction records  
 
-- `assets/accounts.json`
-- `assets/transactions.json`
+---
 
-## Notes
+## 🧠 How AI Was Used
 
-- Assets are declared in `pubspec.yaml`.
-- Data is loaded with `rootBundle.loadString` and parsed with `dart:convert`.
+AI tools (like ChatGPT) were used to:  
+- Suggest JSON parsing and screen navigation logic  
+- Help debug GitHub Pages deployment issues  
+
+*(All code was reviewed, tested, and customized manually.)*
+
+---
+
+## 📁 Project Structure
+
