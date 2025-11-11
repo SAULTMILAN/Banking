@@ -1,0 +1,23 @@
+name: flutter_simple_banking
+description: A simple mobile banking demo using local JSON assets.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # For JSON decoding - dart:convert is enough; no 3rd party deps required.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/accounts.json
+    - assets/transactions.json
